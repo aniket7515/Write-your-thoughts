@@ -36,6 +36,10 @@
 .loginInput:focus {
   outline: none;
 }
+.loginButton:disabled{
+  cursor: not-allowed;
+  background-color: coral;
+}
 
 .loginButton {
   margin-top: 20px;
